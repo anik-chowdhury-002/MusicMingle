@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Redressed&display=swap');
+
+body {
+    background-color: rgb(240, 244, 232);
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(2, 36, 10);
+    color: white;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.brand img {
+    width: 48px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    min-height: 65vh;
+    background-color: rgb(223, 231, 210);
+    color: rgb(245, 240, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    border-image: 34px;
+    background-image: url('a.jpg');
+}
+
+
+.bottom {
+    position: fixed;
+    height: 100px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px; /* Added margin-top */
+}
+
+
+.icons {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s else-in;
+}
